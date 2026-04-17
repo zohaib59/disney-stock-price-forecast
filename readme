@@ -1,0 +1,44 @@
+Disney Stock Price Forecasting (30 Days)
+What happens when you bring ARIMA, Prophet, XGBoost, and LSTM together to forecast Disney’s stock prices?
+I built a 30‑day walk‑forward forecasting pipeline to find out.
+📊 Highlights:
+Compared 4 powerful models head‑to‑head
+Used walk‑forward validation for realistic rolling predictions
+Exported results into Excel‑ready tables & charts for boardroom clarity
+Benchmarked accuracy with MAPE (%) Leaderboard
+I ran a 30‑day walk‑forward forecast on Disney’s stock using ARIMA, Prophet, XGBoost, and LSTM.
+The results? Some models shine, others stumble — but the story is in the numbers.
+
+> Can Mickey’s magic predict Wall Street?  
+> This repo explores **Disney (DIS) stock forecasting** using ARIMA, Prophet, XGBoost, and LSTM — with a walk‑forward approach to keep predictions realistic.
+
+
+📊 Highlights
+- 🔮 **4 Models Compared**: ARIMA, Prophet, XGBoost, LSTM  
+- 📈 **Walk‑Forward Forecasting**: rolling 30‑day horizon  
+- 🏆 **MAPE Leaderboard**: see which model performs best  
+- 📂 **Excel‑ready outputs**: structured tables for analysts & managers  
+- 🎨 **Visual storytelling**: charts + tables that make analytics boardroom‑ready  
+
+
+## 📊 Sample Forecast (30 Days)
+
+| Step | Date       | Predicted_Close |
+|------|------------|-----------------|
+| 1    | 2026-04-17 | 112.45          |
+| 2    | 2026-04-18 | 113.02          |
+| 3    | 2026-04-19 | 112.78          |
+| …    | …          | …               |
+| 30   | 2026-05-16 | 115.34          |
+
+
+## 🛠 Tech Stack
+- **Python** (pandas, numpy, scikit‑learn, statsmodels)
+- **Prophet** for trend + seasonality
+- **XGBoost** for boosted regression
+- **TensorFlow/Keras** for LSTM
+- **Matplotlib/Seaborn** for visualization
+- **Excel export** for structured reporting
+
+
+
